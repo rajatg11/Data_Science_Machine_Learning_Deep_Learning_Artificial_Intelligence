@@ -38,9 +38,9 @@ In this project, you will design your own reinforcement learning task and an age
 This Mini-Project is part of Udacity Deep Learning Nanodegree
 #### Project Overview
 This project is to predict student admissions to graduate school at UCLA based on three pieces of data:
-#####1. GRE Scores (Test)
-#####2. GPA Scores (Grades)
-#####3. Class rank (1-4)
+1. GRE Scores (Test)
+2. GPA Scores (Grades)
+3. Class rank (1-4)
 
 ### 8. Predict Bike Sharing Data (Neural Network)
 This Mini-Project is part of Udacity Deep Learning Nanodegree
