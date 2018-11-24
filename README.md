@@ -33,3 +33,23 @@ This Project is part of Udacity Deep Learning Nanodegree
 The Quadcopter or Quadrotor Helicopter is becoming an increasingly popular aircraft for both personal and professional use. Its maneuverability lends itself to many applications, from last-mile delivery to cinematography, from acrobatics to search-and-rescue.
 
 In this project, you will design your own reinforcement learning task and an agent to complete it. 
+
+### 7. Predicting Student Admissions with Neural Networks in Keras (Neural Network)
+This Mini-Project is part of Udacity Deep Learning Nanodegree
+#### Project Overview
+This project is to predict student admissions to graduate school at UCLA based on three pieces of data:
+#####1. GRE Scores (Test)
+#####2. GPA Scores (Grades)
+#####3. Class rank (1-4)
+
+### 8. Predict Bike Sharing Data (Neural Network)
+This Mini-Project is part of Udacity Deep Learning Nanodegree
+#### Project Overview
+Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions,
+precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to  
+the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is 
+publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then 
+extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com. 
+
+### Regression: 
+Predication of bike rental count hourly or daily based on the environmental and seasonal settings.
