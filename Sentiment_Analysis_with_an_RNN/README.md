@@ -1,4 +1,7 @@
-### 9. Sentiment Analysis with an RNN
+### Sentiment Analysis with an RNN
+
+This mini-project is part of Udacity Deep Learning Nanodegree.
+
 #### Project Overview:
 In this notebook, we'll implement a recurrent neural network that performs sentiment analysis. Using an RNN rather than a feedfoward network is more accurate since we can include information about the sequence of words. Here we'll use a dataset of movie reviews, accompanied by labels.
 
