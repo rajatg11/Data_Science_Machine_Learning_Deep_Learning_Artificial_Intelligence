@@ -7,7 +7,7 @@ Figure Eight has provided the data set containing real messages that were sent d
 ### Project Components:
 Following is the files structure:
 
-1. data: ETL Pipeline
+#### 1. data: ETL Pipeline
 
 Loads the messages and categories datasets
 Merges the two datasets
@@ -19,7 +19,7 @@ disaster_messages.csv   - contains the messages
 DisasterResponse.db     - database contains the transform data
 process_data.py         - contains the code for ETL pipeline
 
-2. models: ML Pipeline
+#### 2. models: ML Pipeline
 
 Loads data from the SQLite database
 Splits the dataset into training and test sets
@@ -31,7 +31,7 @@ Exports the final model as a pickle file
 classifier.pkl       - contains the final model
 train_classifier.py  - contains the code for ML Pipeline
 
-3. app: Flask Web App
+#### 3. app: Flask Web App
 
 Loads the table from ETL Pipeline
 Loads the model/classifier from pickle file
@@ -42,14 +42,20 @@ templates - master.html and go.html contains the html code for web app
 
 
 ### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+#### 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-2. Run the following command in the app's directory to run your web app.
+#### 2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
-3. Go to http://0.0.0.0:3001/
+#### 3. Go to http://0.0.0.0:3001/
+
+
+### Output: WebApp Pages
+![Master Page](https://github.com/rajatg11/Data_Science_Machine_Learning_Deep_Learning_Artificial_Intelligence/blob/master/Disaster_Response_Project_WebApp/Output_images/master_page.jpg)
+
+![Message and its category page](https://github.com/rajatg11/Data_Science_Machine_Learning_Deep_Learning_Artificial_Intelligence/blob/master/Disaster_Response_Project_WebApp/Output_images/message_and_label_output.jpg)
